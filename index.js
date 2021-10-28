@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const discord = require("discord.js-selfbot-v11")
 const rpc = require("discordrpcgenerator");
 const client = new discord.Client()
